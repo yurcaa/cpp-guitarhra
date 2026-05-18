@@ -2,10 +2,11 @@
 #include "Constants.h"
 #include "Utils.h"
 #include "Game.h"
+#include <windows.h>
 
 using namespace sf;
 
-int main()
+int WINAPI WinMain(HINSTANCE, HINSTANCE, LPSTR, int)
 {
     bool isFullscreen = false;
     RenderWindow window(
